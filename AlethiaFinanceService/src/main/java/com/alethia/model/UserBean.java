@@ -20,7 +20,7 @@ public class UserBean {
 	private String fullName;
 	
 	@NotNull
-	@Email
+	@Email(message="Enter a valid emailId")
 	@Column(name="EmailAddress")
 	private String emailId;
 	
